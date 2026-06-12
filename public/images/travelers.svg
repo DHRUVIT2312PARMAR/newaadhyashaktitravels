@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="travelersGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#db2777;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#travelersGrad)"/>
+  <!-- Background landscape -->
+  <rect y="180" width="400" height="120" fill="#86efac" opacity="0.3"/>
+  <!-- Group of travelers -->
+  <g transform="translate(80, 80)">
+    <!-- Person 1 -->
+    <circle cx="20" cy="20" r="12" fill="#fbbf24"/>
+    <rect x="12" y="35" width="16" height="25" fill="#f97316"/>
+    <circle cx="16" cy="60" r="4" fill="#1f2937"/>
+    <circle cx="24" cy="60" r="4" fill="#1f2937"/>
+    <!-- Person 2 -->
+    <circle cx="50" cy="15" r="12" fill="#dbeafe"/>
+    <rect x="42" y="30" width="16" height="25" fill="#ec4899"/>
+    <circle cx="46" cy="55" r="4" fill="#1f2937"/>
+    <circle cx="54" cy="55" r="4" fill="#1f2937"/>
+    <!-- Person 3 -->
+    <circle cx="80" cy="22" r="12" fill="#bfdbfe"/>
+    <rect x="72" y="37" width="16" height="25" fill="#06b6d4"/>
+    <circle cx="76" cy="62" r="4" fill="#1f2937"/>
+    <circle cx="84" cy="62" r="4" fill="#1f2937"/>
+    <!-- Person 4 -->
+    <circle cx="110" cy="18" r="12" fill="#fecaca"/>
+    <rect x="102" y="33" width="16" height="25" fill="#10b981"/>
+    <circle cx="106" cy="58" r="4" fill="#1f2937"/>
+    <circle cx="114" cy="58" r="4" fill="#1f2937"/>
+  </g>
+  <!-- Emoji in corner -->
+  <text x="20" y="50" font-size="50">👨‍👩‍👧‍👦</text>
+  <!-- Sun rays -->
+  <circle cx="340" cy="40" r="25" fill="#fcd34d" opacity="0.5"/>
+</svg>

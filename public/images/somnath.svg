@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="somnathGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#somnathGrad)"/>
+  <!-- Sky -->
+  <rect width="400" height="150" fill="#fbbf24" opacity="0.3"/>
+  <!-- Water -->
+  <ellipse cx="200" cy="250" rx="150" ry="40" fill="#3b82f6" opacity="0.5"/>
+  <!-- Temple structure -->
+  <g transform="translate(150, 80)">
+    <!-- Main tower -->
+    <polygon points="50,0 30,40 70,40" fill="#f59e0b"/>
+    <rect x="30" y="40" width="40" height="80" fill="#f59e0b"/>
+    <!-- Spire details -->
+    <polygon points="50,0 45,15 55,15" fill="#fbbf24"/>
+    <circle cx="50" cy="25" r="3" fill="#fcd34d"/>
+    <!-- Side structures -->
+    <rect x="10" y="60" width="15" height="50" fill="#f59e0b" opacity="0.8"/>
+    <rect x="75" y="60" width="15" height="50" fill="#f59e0b" opacity="0.8"/>
+  </g>
+  <!-- Emoji temple in corner -->
+  <text x="20" y="50" font-size="60">🏛️</text>
+  <!-- Sun -->
+  <circle cx="350" cy="40" r="20" fill="#fcd34d" opacity="0.7"/>
+</svg>

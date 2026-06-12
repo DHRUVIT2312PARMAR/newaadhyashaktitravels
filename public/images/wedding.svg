@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="weddingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7e22ce;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#weddingGrad)"/>
+  <!-- Wedding mandap structure -->
+  <g transform="translate(100, 60)">
+    <!-- Pillars -->
+    <rect x="10" y="80" width="15" height="60" fill="#d4a574"/>
+    <rect x="175" y="80" width="15" height="60" fill="#d4a574"/>
+    <!-- Top structure -->
+    <polygon points="0,80 100,40 200,80" fill="#db2777" opacity="0.8"/>
+    <!-- Decorative roof -->
+    <rect x="5" y="75" width="190" height="8" fill="#ec4899"/>
+    <!-- Center decoration -->
+    <circle cx="100" cy="50" r="20" fill="#fbbf24"/>
+    <circle cx="100" cy="50" r="12" fill="#f59e0b"/>
+  </g>
+  <!-- Emoji in corner -->
+  <text x="30" y="50" font-size="60">💒</text>
+  <!-- Flower decorations -->
+  <circle cx="50" cy="120" r="6" fill="#f472b6"/>
+  <circle cx="340" cy="140" r="6" fill="#f472b6"/>
+  <circle cx="80" cy="220" r="6" fill="#f472b6"/>
+  <circle cx="320" cy="240" r="6" fill="#f472b6"/>
+  <!-- Stars/sparkles -->
+  <text x="60" y="80" font-size="20">✨</text>
+  <text x="320" y="100" font-size="20">✨</text>
+</svg>

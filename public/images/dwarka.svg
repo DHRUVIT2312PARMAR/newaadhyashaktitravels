@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="dwarkaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#dwarkaGrad)"/>
+  <!-- Sky gradient -->
+  <rect width="400" height="150" fill="#93c5fd" opacity="0.3"/>
+  <!-- Water at bottom -->
+  <rect y="200" width="400" height="100" fill="#0ea5e9" opacity="0.4"/>
+  <!-- Temple/Fort structure -->
+  <g transform="translate(140, 80)">
+    <!-- Main temple tower -->
+    <polygon points="60,0 40,50 80,50" fill="#fbbf24"/>
+    <rect x="40" y="50" width="40" height="100" fill="#f59e0b"/>
+    <!-- Decorative spire -->
+    <polygon points="60,0 55,20 65,20" fill="#fcd34d"/>
+    <!-- Side towers -->
+    <rect x="15" y="70" width="18" height="70" fill="#f59e0b" opacity="0.8"/>
+    <rect x="77" y="70" width="18" height="70" fill="#f59e0b" opacity="0.8"/>
+    <!-- Archway -->
+    <ellipse cx="60" cy="120" rx="12" ry="15" fill="#1e40af" opacity="0.6"/>
+  </g>
+  <!-- Emoji temple in corner -->
+  <text x="30" y="50" font-size="60">🛕</text>
+  <!-- Boats in water -->
+  <path d="M 80 220 Q 100 210 120 220" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 280 240 Q 300 230 320 240" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
