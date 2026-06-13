@@ -15,19 +15,29 @@ export default function Navbar() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-white/95 backdrop-blur-md shadow-lg' 
-        : 'bg-white/80 backdrop-blur-md'
+        ? 'bg-white/50 backdrop-blur-md shadow-lg' 
+        : 'bg-transparent backdrop-blur-sm'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo - Mobile Optimized */}
-          <Link to="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-9 md:w-10 h-9 md:h-10 bg-gradient-to-br from-teal-600 to-teal-700 rounded-lg flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-sm md:text-base">AT</span>
+          <Link to="/" className="flex items-center gap-2 md:gap-3 flex-shrink-0 group">
+            {/* Logo Container - Square Shape */}
+            <div className={`flex items-center justify-center rounded-lg transition-all duration-300 ${
+              isScrolled 
+                ? 'bg-gradient-to-br from-teal-600 to-teal-800 p-3 md:p-4 shadow-md' 
+                : 'bg-gradient-to-br from-teal-700 to-teal-900 p-3 md:p-4'
+            } group-hover:shadow-lg`}>
+              <img 
+                src="/images/ADHYASHAKTI_LOGO.png" 
+                alt="Aadhyashakti Travels Logo" 
+                className="w-10 md:w-14 h-10 md:h-14 object-contain"
+              />
             </div>
+            {/* Company Name */}
             <div className="hidden sm:block">
-              <h1 className="font-bold text-gray-900 text-sm md:text-base">Aadhyashakti</h1>
-              <p className="text-xs text-teal-600 font-semibold">Travels</p>
+              <h1 className="font-bold text-gray-900 text-sm md:text-base leading-tight">Aadhyashakti</h1>
+              <p className="text-xs text-teal-600 font-semibold leading-tight">Travels</p>
             </div>
           </Link>
 
@@ -56,7 +66,7 @@ export default function Navbar() {
 
         {/* Mobile Menu - Dropdown */}
         {isOpen && (
-          <div className="lg:hidden border-t border-gray-200 bg-white/95 backdrop-blur-md py-4 space-y-2 animate-in fade-in">
+          <div className="lg:hidden bg-white/95 backdrop-blur-md py-4 space-y-2 animate-in fade-in">
             <a href="#fleet" className="block px-4 py-2.5 text-gray-700 hover:bg-teal-50 rounded-lg font-medium text-sm">Fleet</a>
             <a href="#tours" className="block px-4 py-2.5 text-gray-700 hover:bg-teal-50 rounded-lg font-medium text-sm">Tours</a>
             <a href="#gallery" className="block px-4 py-2.5 text-gray-700 hover:bg-teal-50 rounded-lg font-medium text-sm">Gallery</a>

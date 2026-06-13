@@ -49,12 +49,15 @@ export default function Hero() {
         <div className="space-y-6 md:space-y-12">
           {/* Content - Mobile First */}
           <div className="space-y-4 md:space-y-8">
-            {/* Trust Badge */}
+            {/* Logo - Centered above headline */}
             <div className="flex justify-center">
-              <span className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-white/10 backdrop-blur-md text-white text-xs font-bold rounded-full border border-white/20">
-                <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-                🏆 Trusted since 2009
-              </span>
+              <div className="w-40 h-40 md:w-72 md:h-72 bg-gradient-to-br from-teal-700 to-teal-900 rounded-2xl flex items-center justify-center shadow-2xl border border-teal-600">
+                <img 
+                  src="/images/ADHYASHAKTI_LOGO.png" 
+                  alt="Aadhyashakti Travels Logo" 
+                  className="w-36 md:w-64 h-36 md:h-64 object-contain"
+                />
+              </div>
             </div>
 
             {/* Main Headline - Mobile optimized */}

@@ -11,9 +11,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-5 gap-12 mb-12">
           {/* Company Info */}
           <div className="md:col-span-2 space-y-4">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">AT</span>
+            <Link to="/" className="flex items-center gap-3 group">
+              <div className="w-16 h-16 bg-gradient-to-br from-teal-600 to-teal-800 rounded-lg flex items-center justify-center group-hover:shadow-lg transition-all flex-shrink-0">
+                <img 
+                  src="/images/ADHYASHAKTI_LOGO.png" 
+                  alt="Aadhyashakti Travels Logo" 
+                  className="w-14 h-14 object-contain"
+                />
               </div>
               <div>
                 <h1 className="font-bold text-white tracking-tight">Aadhyashakti</h1>
